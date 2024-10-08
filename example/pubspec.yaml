@@ -1,0 +1,61 @@
+name: flutter_soloud_example
+description: Demonstrates how to use the flutter_soloud plugin.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+homepage: https://github.com/alnitak/flutter_soloud
+maintainer: Marco Bavagnoli (@lildeimos)
+
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  
+  #https://pub.dev/packages/ffi
+  ffi: ^2.0.2
+
+  #https://pub.dev/packages/file_picker
+  file_picker: ^5.3.3
+
+  flutter:
+    sdk: flutter
+
+  flutter_soloud:
+    path: ../
+
+  #https://pub.dev/packages/logging
+  logging: ^1.0.0
+
+  #https://pub.dev/packages/path_provider
+  path_provider: ^2.0.15
+
+  #https://pub.dev/packages/permission_handler
+  permission_handler: ^10.4.3
+
+  #https://pub.dev/packages/star_menu
+  star_menu: ^3.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  very_good_analysis: ^5.0.0+1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/audio/12Bands/
+
+  shaders:
+    - assets/shaders/test1.frag
+    - assets/shaders/test2.frag
+    - assets/shaders/test3.frag
+    - assets/shaders/test4.frag
+    - assets/shaders/test5.frag
+    - assets/shaders/test6.frag
+    - assets/shaders/test7.frag
+    - assets/shaders/test8.frag
+    - assets/shaders/test9.frag
